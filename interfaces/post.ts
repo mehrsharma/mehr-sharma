@@ -11,6 +11,9 @@ type PostType = {
     url: string
   }
   content: string
+  githubLink: {
+    url: string
+  }
 }
 
 export default PostType

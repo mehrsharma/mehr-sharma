@@ -30,6 +30,7 @@ export default function Index({ allPosts }: Props) {
               excerpt={heroPost.excerpt}
             />
           )}
+
           {morePosts.length > 0 && <Projects posts={morePosts} />}
         </Container>
       </Layout>
@@ -45,6 +46,7 @@ export const getStaticProps = async () => {
     'author',
     'coverImage',
     'excerpt',
+    'githubLink',
   ])
 
   return {

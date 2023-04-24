@@ -29,3 +29,13 @@
   display: flex;
   gap: 16px;
 }
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .bigContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .linkContainer {
+    margin-left: -20px !important;
+  }
+}

@@ -3,6 +3,7 @@ import DateFormatter from './date-formatter'
 import CoverImage from './cover-image'
 import Link from 'next/link'
 import type Author from '../interfaces/author'
+import GithubLink from '../interfaces/githubLink'
 
 type Props = {
   title: string
@@ -10,7 +11,7 @@ type Props = {
   date: string
   excerpt: string
   author: Author
-  slug: string
+  githubLink: GithubLink
 }
 
 const PostPreview = ({
@@ -19,18 +20,18 @@ const PostPreview = ({
   date,
   excerpt,
   author,
-  slug,
+  githubLink,
 }: Props) => {
   return (
     <div>
       <div className="mb-5">
-        <CoverImage title={title} src={coverImage} />
+        <a href = {githubLink.url} target="_blank"><CoverImage title={title} src={coverImage} /></a>
       </div>
       <h3 className="text-3xl mb-3 leading-snug">
         <Link
-          as={`/posts/${slug}`}
-          href="/posts/[slug]"
+          href={githubLink.url}
           className="hover:underline"
+          target="_blank"
         >
           {title}
         </Link>

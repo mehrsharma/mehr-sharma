@@ -1,11 +1,13 @@
 ---
-title: 'Preview Mode for Static Generation'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+title: 'Art by Mehr'
+excerpt: 'A create-react-app project I made using Typescript to display my art. My main mediums include acrylic, ink, and CSS (kidding).'
 coverImage: '/assets/blog/preview/cover.jpg'
-date: '2020-03-16T05:35:07.322Z'
+date: '2023-01-16T05:35:07.322Z'
 author:
-  name: project languages
+  name: React, TypeScript
   picture: '/assets/blog/authors/github_icon.png'
 ogImage:
   url: '/assets/blog/preview/cover.jpg'
+githubLink: 
+  url: 'www.google.com'
 ---
