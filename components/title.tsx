@@ -1,7 +1,7 @@
 import { CMS_NAME } from '../lib/constants'
 import Link from 'next/link'
 
-import styles from './Intro.module.css'
+import styles from './Title.module.css'
 
 const Intro = () => {
   return (
@@ -14,10 +14,10 @@ const Intro = () => {
       <h2 className="text-2xl md:text-4xl text-center md:text-left text-lg mt-5 md:pl-8">
         <div className={styles.linkContainer}>
           <Link href="/" className="hover:underline">
-            home
+            about
           </Link>
           <Link href="/" className="hover:underline">
-            about
+            projects
           </Link>
           <Link href="/" className="hover:underline">
             contact

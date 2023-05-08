@@ -1,6 +1,12 @@
 import { AppProps } from 'next/app'
 import '../styles/index.css'
 
+import { NextUIProvider } from '@nextui-org/react';
+
 export default function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+    <NextUIProvider>
+      <Component {...pageProps} />
+    </NextUIProvider>
+  );
 }
