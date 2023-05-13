@@ -1,5 +1,5 @@
 ---
-title: 'Art by Mehr'
+title: 'mehr makes stuff'
 excerpt: 'A create-react-app project I made using Typescript to display my art. My main mediums include acrylic, ink, and CSS! (just kidding)'
 coverImage: '/assets/blog/preview/mrwhite.png'
 date: '2023-01-16T05:35:07.322Z'
@@ -9,5 +9,5 @@ author:
 ogImage:
   url: '/assets/blog/preview/mrwhite.png'
 githubLink: 
-  url: 'www.google.com'
+  url: 'https://github.com/mehrsharma/mehr-makes-stuff'
 ---

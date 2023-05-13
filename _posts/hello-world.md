@@ -1,5 +1,5 @@
 ---
-title: 'Dino-Run CLI'
+title: 'dino-run CLI'
 excerpt: 'A clone of Google Chrome''s offline dino-jump game I created as a way to learn Rust. All animations and icons are hand drawn by me and assembled into a tileset using Procreate.'
 coverImage: '/assets/blog/hello-world/tiles.png'
 date: '2023-04-16T05:35:07.322Z'
