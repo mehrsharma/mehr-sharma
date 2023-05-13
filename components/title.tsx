@@ -13,13 +13,13 @@ const Intro = () => {
       </h1>
       <h2 className="text-2xl md:text-4xl text-center md:text-left text-lg mt-5 md:pl-8">
         <div className={styles.linkContainer}>
-          <Link href="/" className="hover:underline">
+          <Link href="#about" className="hover:underline" scroll={false}>
             about
           </Link>
-          <Link href="/" className="hover:underline">
+          <Link href="#projects" className="hover:underline" scroll={false}>
             projects
           </Link>
-          <Link href="/" className="hover:underline">
+          <Link href="#contact" className="hover:underline" scroll={false}>
             contact
           </Link>
         </div>

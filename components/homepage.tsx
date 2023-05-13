@@ -1,8 +1,4 @@
-import Avatar from './avatar'
-import DateFormatter from './date-formatter'
 import CoverImage from './cover-image'
-import Link from 'next/link'
-import type Author from '../interfaces/author'
 import { Badge } from "@nextui-org/react";
 import styles from './Title.module.css';
 
@@ -19,13 +15,14 @@ const HomePage = ({
 }: Props) => {
   return (
     <section>
-      <div className="mb-8 md:mb-16">
+      <div className="mb-0 md:mb-1">
         <CoverImage title={title} src={coverImage}/>
       </div>
+      <p className="text-sm leading-relaxed mb-14"><i>La Mare</i>, Théodore Rousseau circa. 1855</p>
       <div className="md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 mb-20 md:mb-28">
-        <div>
+        <div id="about">
           <h2
-            className={`mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight`}
+            className={`mb-0 md:mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight`}
           >
             about me
           </h2>
@@ -49,7 +46,7 @@ const HomePage = ({
             <Badge variant="flat">Rust</Badge>
           </p>
           <p className="text-lg leading-relaxed mb-4">
-            <Badge isSquared color="success" variant="flat" size="lg" style={{'marginRight': '10px'}}>Tools & Frameworks</Badge>
+            <Badge isSquared color="warning" variant="flat" size="lg" style={{'marginRight': '10px'}}>Tools & Frameworks</Badge>
             <Badge variant="flat">React</Badge>
             <Badge variant="flat">Next.js</Badge>
             <Badge variant="flat">Vue.js</Badge>
@@ -59,7 +56,7 @@ const HomePage = ({
             <Badge variant="flat">Git</Badge>
           </p>
           <p className="text-lg leading-relaxed mb-4">
-            <Badge isSquared color="success" variant="flat" size="lg" style={{'marginRight': '10px'}}>Other</Badge>
+            <Badge isSquared color="error" variant="flat" size="lg" style={{'marginRight': '10px'}}>Other</Badge>
             <Badge variant="flat">AWS</Badge>
             <Badge variant="flat">SumoLogic</Badge>
             <Badge variant="flat">MATLAB</Badge>

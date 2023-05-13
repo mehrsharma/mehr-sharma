@@ -30,6 +30,15 @@
   gap: 16px;
 }
 
+.mainImage {
+  margin-bottom: 2px !important;
+}
+
+.socialIcons {
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+
 @media screen and (max-width: 1024px) and (min-width: 768px) {
   .bigContainer {
     display: flex;
@@ -37,5 +46,12 @@
   }
   .linkContainer {
     margin-left: -20px !important;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .socialIcons{
+    margin-right: 0px !important;
+    margin-bottom: 10px !important;
   }
 }
