@@ -1,6 +1,5 @@
 import CoverImage from './cover-image'
 import { Badge } from "@nextui-org/react";
-import styles from './Title.module.css';
 
 type Props = {
   title: string
@@ -63,6 +62,7 @@ const HomePage = ({
             <Badge variant="flat">SumoLogic</Badge>
             <Badge variant="flat">Cloud/Serverless Models</Badge>
           </p>
+          <p className="text-lg leading-relaxed mb-4">This website was created using Next.js with React and Typescript</p>
         </div>
       </div>
     </section>
