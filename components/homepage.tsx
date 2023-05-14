@@ -21,7 +21,7 @@ const HomePage = ({
       <div className="md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 mb-20 md:mb-28">
         <div id="about">
           <h2
-            className={`mb-0 md:mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight`}
+            className={`mb-0 md:mb-3 text-5xl md:text-7xl font-bold tracking-tighter leading-tight`}
           >
             about me
           </h2>
@@ -31,7 +31,6 @@ const HomePage = ({
         </div>
         <div>
           <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
-          <p className="text-lg leading-relaxed mb-4">Through my degree and the five internships I've completed, I've picked up on a variety of technologies:</p>
           <p className="text-lg leading-relaxed mb-4">
             <Badge isSquared color="success" variant="flat" size="lg" style={{'marginRight': '10px'}}>Languages</Badge>
             <Badge variant="flat">C++</Badge>
@@ -62,7 +61,8 @@ const HomePage = ({
             <Badge variant="flat">SumoLogic</Badge>
             <Badge variant="flat">Cloud/Serverless Models</Badge>
           </p>
-          <p className="text-lg leading-relaxed mb-4">This website was created using Next.js with React and Typescript</p>
+          <p className="text-lg leading-relaxed mb-1">Check out some of my projects below, or take a look at the contact section to reach out or learn more about me!</p>
+          <p className="text-sm leading-relaxed mb-4">&#40;This website was created using Next.js with React and Typescript&#41;</p>
         </div>
       </div>
     </section>
